@@ -1,6 +1,6 @@
 // create empty array
 let emptyArray = [];
-// create hoppies array and add 5 hobbies
+// create hobbies array and add 5 hobbies
 let hobbies = ["hobbies_1", "hobbies_2", "hobbies_3", "hobbies_4", "hobbies_5", "hobbies_6"];
 // create numbers array and add 5 fiv numbers 
 let numbers = [1,10,100,1000,1000000];
@@ -25,7 +25,8 @@ console.log(`4- The last hobby: [${hobbies[hobbies.length-1]}].`);
 console.log(`5- The length of array hobbies: [${hobbies.length}]`);
 // Remove the last 2 hobbies from array hobbies
 console.log("6- Remove the last 2 hobbies from array hobbies: [DONE ✅] ");
-hobbies = hobbies.slice(0,-2);
+// hobbies = hobbies.slice(0,-2);
+hobbies.splice(hobbies.length-2,2);
 // Print length of hobbies
 console.log(`7- The length of array hobbies: [${hobbies.length}]`);
 // Print every element in hobbies in a single line
